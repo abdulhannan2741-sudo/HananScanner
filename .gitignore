@@ -1,0 +1,35 @@
+# Build artifacts
+build/
+.dart_tool/
+.flutter-plugins
+.flutter-plugins-dependencies
+.packages
+.pub-cache/
+.pub/
+
+# Android
+android/.gradle/
+android/local.properties
+android/key.properties
+android/app/release.keystore
+android/app/debug.keystore
+*.keystore
+
+# IDE
+.idea/
+*.iml
+*.ipr
+*.iws
+.vscode/
+
+# Flutter/Dart
+.dart_tool/
+*.dart_tool/
+
+# Generated
+.dart_build/
+*.g.dart
+*.freezed.dart
+
+# Misc
+.DS_Store
